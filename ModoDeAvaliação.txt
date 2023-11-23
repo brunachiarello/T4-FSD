@@ -1,0 +1,20 @@
+Parte 1
+[4 pontos]
+Relatório (relatório.pdf), contendo 5 seções:
+(1) [1 ponto] pseudocódigo ou código (Python, C, Java...) do programa, explicando o mesmo; 
+(2) [0,5 pontos] uma tabela que relacione as principais variáveis do pseudocódigo/código com os 
+registradores da arquitetura MIPS;
+(3) [0,5 pontos] um exemplo da área de dados (diferente da apresentada), com a solução esperada;
+(4) [1 ponto] telas capturadas do simulador MARS, com explicação do que a tela apresenta;
+(5) [1 ponto] tela(s) capturada(s) do simulador MODELSIM, com explicação do que a tela apresenta.
+Parte 2
+[4 pontos]
+Código em linguagem assembly (tp4.asm), com comentários e corretamente indentado, usando apenas o 
+conjunto de instruções visto em aula. Apresentar no relatório (seção 4) figuras da área de dados conforme 
+exemplo apresentado posteriormente, correspondendo aos dados selecionados pelos alunos.
+Parte 3
+[2 pontos]
+Arquivo com o dump de memória (mips.txt) que permita simular o programa em assembly com o código 
+VHDL do processador fornecido. Apresentar no relatório (seção 5) diagramas de tempos que mostrem
+estados dos registradores (como mostrado a seguir), e a área de memória de dados no início e no final da 
+simulação.
