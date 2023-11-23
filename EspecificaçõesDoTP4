@@ -1,0 +1,15 @@
+SPECIFICAÇÕES DO TP4
+ESPECIFICAÇÃO GERAL (para todos os alunos): 
+1. Crie dois vetores unidimensionais, A e B, cada um consistindo de n (onde n >= 8) inteiros aleatórios com sinal (devem ser utilizados 
+pelo menos 2 valores positivos e 2 valores negativos).
+2. Crie dois vetores C e D com o mesmo número de elementos (n) dos vetores A e B. Todas as posições dos vetores C e D devem ser 
+inicializados com zero.
+3. Adição de Vetores - �(�) = �(�) + �(�)
+a. Crie uma sub-rotina em linguagem assembly que realize a adição de vetores.
+b. A sub-rotina deve receber os vetores de entrada A e B e armazenar o resultado em um novo vetor C.
+c. Use estruturas de looping apropriadas para iterar pelos vetores.
+4. Subtração de Vetores - �(�) = �(�) − �(�)
+a. Crie uma sub-rotina em linguagem assembly que realize a subtração de vetores.
+b. A sub-rotina deve receber os vetores de entrada A e B e armazenar o resultado em um novo vetor D.
+c. Use estruturas de looping apropriadas para iterar pelos vetores.
+5. Siga para a ESPECIFICAÇÃO adequada ao menor dígito final da matrícula.
