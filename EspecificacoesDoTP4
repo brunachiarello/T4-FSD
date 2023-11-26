@@ -4,6 +4,23 @@ ESPECIFICAÇÃO GERAL (para todos os alunos):
 1. Crie dois vetores unidimensionais, A e B, cada um consistindo de n (onde n >= 8) inteiros aleatórios com sinal (devem ser utilizados 
 pelo menos 2 valores positivos e 2 valores negativos).
 
+ - utilizados:
+    n = 8;
+    A[n] = {2,8,-24,4,12,-2,4,3};
+    B[n] = {7,-12,5,12,15,8,11,-7};
+
+    c = a + b;
+    C[n] = {9, -4, -19, 16, 27, 6, 15, -4};
+
+    d = a - b;
+    D[n] = {-5, 20, -29, -8, -3, -10, -7, 10};
+
+    mair valor = 27
+
+    soma de n elemento de a + n elementod de b = 14
+
+    resultado da soma de elementos = 378
+
 2. Crie dois vetores C e D com o mesmo número de elementos (n) dos vetores A e B. Todas as posições dos vetores C e D devem ser 
 inicializados com zero.
 
