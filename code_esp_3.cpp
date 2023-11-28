@@ -7,6 +7,26 @@
 
 using namespace std;
 
+int multiply(int a, int b){
+    int acumula = 0;
+    int vezes = b;
+
+    // se B é negativo, troca o sinal
+    if(b < 0)
+        vezes = 0 - vezes;
+
+    // acumula A, B vezes
+    while(vezes!=0){
+        acumula = acumula + a;
+        vezes = vezes - 1;
+    }
+
+    // se B é negativo, trocamos o sinal do resultado
+    if(b < 0)
+        acumula = 0 - acumula;
+
+    return acumula;
+}
 
 int main() {
     int n = 8;
@@ -58,7 +78,7 @@ int main() {
 
     cout << "A soma dos vetores é: " << sM << endl;
 
-    sM = maxNum * sM;
+    sM = multiply(sM, maxNum);
 
     cout << "O resultado do maior nunero multiplicado pela soma é : " << sM << endl;
 

@@ -4,7 +4,22 @@ ESPECIFICAÇÃO GERAL (para todos os alunos):
 1. Crie dois vetores unidimensionais, A e B, cada um consistindo de n (onde n >= 8) inteiros aleatórios com sinal (devem ser utilizados 
 pelo menos 2 valores positivos e 2 valores negativos).
 
- - utilizados:
+2. Crie dois vetores C e D com o mesmo número de elementos (n) dos vetores A e B. Todas as posições dos vetores C e D devem ser 
+inicializados com zero.
+
+3. Adição de Vetores - C(i) = A(i) + B(i)
+a. Crie uma sub-rotina em linguagem assembly que realize a adição de vetores.
+b. A sub-rotina deve receber os vetores de entrada A e B e armazenar o resultado em um novo vetor C.
+c. Use estruturas de looping apropriadas para iterar pelos vetores.
+
+4. Subtração de Vetores - D(i) = A(i) - B(i)
+a. Crie uma sub-rotina em linguagem assembly que realize a subtração de vetores.
+b. A sub-rotina deve receber os vetores de entrada A e B e armazenar o resultado em um novo vetor D.
+c. Use estruturas de looping apropriadas para iterar pelos vetores.
+
+5. Siga para a ESPECIFICAÇÃO adequada ao menor dígito final da matrícula. ESPECIFICAÇÃO 3
+
+ - Valores utilizados:
     n = 8;
     A[n] = {2,8,-24,4,12,-2,4,3};
     B[n] = {7,-12,5,12,15,8,11,-7};
@@ -20,18 +35,3 @@ pelo menos 2 valores positivos e 2 valores negativos).
     soma de n elemento de a + n elementod de b = 14
 
     resultado da soma de elementos = 378
-
-2. Crie dois vetores C e D com o mesmo número de elementos (n) dos vetores A e B. Todas as posições dos vetores C e D devem ser 
-inicializados com zero.
-
-3. Adição de Vetores - C(i) = A(i) + B(i)
-a. Crie uma sub-rotina em linguagem assembly que realize a adição de vetores.
-b. A sub-rotina deve receber os vetores de entrada A e B e armazenar o resultado em um novo vetor C.
-c. Use estruturas de looping apropriadas para iterar pelos vetores.
-
-4. Subtração de Vetores - D(i) = A(i) - B(i)
-a. Crie uma sub-rotina em linguagem assembly que realize a subtração de vetores.
-b. A sub-rotina deve receber os vetores de entrada A e B e armazenar o resultado em um novo vetor D.
-c. Use estruturas de looping apropriadas para iterar pelos vetores.
-
-5. Siga para a ESPECIFICAÇÃO adequada ao menor dígito final da matrícula. ESPECIFICAÇÃO 3
