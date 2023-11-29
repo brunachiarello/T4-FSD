@@ -101,7 +101,7 @@ max_negativo:
 	j	multi_loop
 	
 verify_result:
-	bgt	$t3, $0, salva_sm	# verifica se o maior valor � negativo
+	bgt	$t3, $0, salva_sm	# verifica se o maior valor  negativo
 
 troca_sinal_result:
 	sub	$t9, $0, $t9		# troca o sinal do resultado caso o max value seja negativo
@@ -113,9 +113,10 @@ salva_sm:
 fim:	j	fim
 		
 .data
+sm:	.word	0
 n:	.word	8
 a:	.word	2 8 -24 4 12 -2 4 3
 b:	.word	7 -12 5 12 15 8 11 -7
 c:	.word	0 0 0 0 0 0 0 0
 d:	.word	0 0 0 0 0 0 0 0
-sm:	.word	0
+
