@@ -85,7 +85,7 @@ inicializa_multi:
 	xor	$t5, $t5, $t5		# zera i
 	xor	$t9, $t9, $t9		# inicializa res multi
 
-	lw 	$t0, sm			# t0 recebe sm
+	la 	$t0, sm			# t0 recebe sm
 	
 	add	$t1, $t3, $0		# t1 recebe o maior valor encontrado
 	blt	$t1, $0, max_negativo	# verifica se o meior valor encontrado � negativo
