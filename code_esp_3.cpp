@@ -1,7 +1,3 @@
-// Código em C
-// 1. Crie uma sub-rotina que calcule o somatório de dois vetores multiplicado pelo valor máximo deles (SM -> máximo vezes somatório).
-// 2. Calcule o somatório dos vetores C e D, que foram obtidos na ESPECIFICAÇÃO GERAL, multiplicado pelo valor máximo deles.
-// 3. Salve o resultado em uma variável (SM) na memória.
 
 #include <iostream>
 
@@ -37,14 +33,14 @@ int main() {
     int D[n] = {};
 
 
-    for(int i = 0; i < n; i++){
+    for(int i = 0; i < n; i++){ //Preenche os vetore C  e D, C com a soma por elemento de A e B, e D com a subtracao
         C[i] = A[i] + B[i];
         D[i] = A[i] - B[i];
     }
 
-    cout << "Vetor C : ";
+    cout << "Vetor C : ";   
 
-    for(int i = 0; i < n; i++){
+    for(int i = 0; i < n; i++){ //mostra vetor C
         cout << C[i] << " ";
     }
 
@@ -52,15 +48,15 @@ int main() {
 
     cout << "Vetor D : ";
 
-    for(int i = 0; i < n; i++){
+    for(int i = 0; i < n; i++){ //mostra vetor D
         cout << D[i] << " ";
     }
 
     cout << endl;
 
-    int maxNum = C[0];
+    int maxNum = C[0];  //inicializa maxNum com o primeiro valor de C
 
-    for(int i = 0; i < n; i++){
+    for(int i = 0; i < n; i++){ //encontra o maior valor entre os vetores C e D
         if(C[i] > maxNum)
             maxNum = C[i];
 
@@ -70,15 +66,15 @@ int main() {
 
     cout << "Maior numero: " << maxNum << endl;
 
-    int sM = 0;
+    int sM = 0; //inicializa a soma
 
-    for(int i = 0; i < n; i++){
+    for(int i = 0; i < n; i++){ // soma os vetores
         sM += C[i] + D[i];
     }
 
-    cout << "A soma dos vetores é: " << sM << endl;
+        cout << "A soma dos vetores é: " << sM << endl;
 
-    sM = multiply(sM, maxNum);
+    sM = multiply(sM, maxNum); //chama a função para realizar a multiplicação por somas sucessivas
 
     cout << "O resultado do maior nunero multiplicado pela soma é : " << sM << endl;
 

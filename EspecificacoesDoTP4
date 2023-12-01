@@ -30,8 +30,8 @@ c. Use estruturas de looping apropriadas para iterar pelos vetores.
     d = a - b;
     D[n] = {-5, 20, -29, -8, -3, -10, -7, 10};
 
-    mair valor = 27
+    maior valor = 27
 
-    soma de n elemento de a + n elementod de b = 14
+    soma de n elemento de a + n elemento de b = 14
 
-    resultado da soma de elementos = 378
+    resultado da multiplicação = 378
